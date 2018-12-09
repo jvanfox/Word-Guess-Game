@@ -1,0 +1,32 @@
+
+
+.heading {
+	background-color: lightgray;
+	padding: 3px lightgray;
+}
+body {
+    line-height: 1;
+    text-align: center;
+    border: 3px blue;
+}
+
+.background {
+    background-color: lightblue;
+
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+

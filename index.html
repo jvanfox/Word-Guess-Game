@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Guess the Day</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+
+    <body>
+
+            
+        
+        <div class="heading">
+            <h1>Guessing Word Game, What day am I thinking of?"</h1>
+        </div>
+
+        <div class="background">
+            <div class="container">
+
+              
+                <h2>Press Any Key To Guess This Word!</h2>
+                <div>
+                  
+                </div>
+
+                
+                <div>
+                    <h3 id="currentword">_ _ _ _ _</h3>
+                </div>
+                <div id="scoreboard">
+                   
+                    <div class="sidebar">
+                        <h3>GUESSES LEFT:
+                            <span id="guessesremaining"></span>
+                        </h3>
+                    </div>
+
+                    
+                    <div class="sidebar">
+                        <h3>WINS:
+                            <span id="winscounter"></span>
+                        </h3>
+                    </div>
+                    
+                    <div class="sidebar">
+                        <h3>LOSSES:
+                            <span id="losstracker"></span>
+                        </h3>
+                    </div>
+
+                   
+                    <div class="sidebar">
+                        <h3>LETTERS YOU GUESSED WRONG:
+                            <span id="playerguesses"></span>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="assets/javascript/game.js"></script>
+
+    </body>
+
+</html>
